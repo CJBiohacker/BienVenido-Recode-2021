@@ -454,6 +454,8 @@ section {
   height: 100%;
 }
 
+/* Anuncio do app */
+
 .aboutapp .row {
   display: flex;
   align-items: center;
@@ -467,6 +469,11 @@ section {
 
 .aboutapp .row .image img {
   width: 100%;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
 
 .aboutapp .row .content {
