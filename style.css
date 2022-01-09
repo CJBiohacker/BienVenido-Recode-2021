@@ -620,6 +620,8 @@ section {
   color: rgb(252, 252, 252);
 }
 
+/* a parte dos empregos  */
+
 .courses .box-container {
   display: -ms-grid;
   display: grid;
@@ -673,11 +675,22 @@ section {
   color: rgb(243, 243, 243);
 }
 
-.courses .box-container .box .content p {
+.courses .box-container .box .content p{
   padding: 1rem 0;
   font-size: 1.6rem;
   line-height: 2;
   color: rgb(255, 255, 255);
+  height: 200px;
+  overflow-y: auto;
+}
+  .courses .box-container .box .content  p::-webkit-scrollbar-track{
+    background: transparent;
+}
+.courses .box-container .box .content p::-webkit-scrollbar-thumb {
+  background: #fa3535;
+}
+.courses .box-container .box .content p::-webkit-scrollbar {
+  width: 1rem;
 }
 
 .courses .box-container .box .content .icons {
