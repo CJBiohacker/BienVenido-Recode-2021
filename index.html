@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BienVenido-Brasil</title>
+    
+    <!-- font link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- swiper css link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- customizaçao css  link  -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="shortcut icon"  href="#">
+  </head>
+  <body>
+    <!-- header inicio  -->
+
+    <header class="header">
+      <a href="home.html" class="logo"> BienVenido </a>
+      
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">Comienzo</a>
+        <a href="about.html">Acerca de</a>
+        <a href="work.html">trabajos</a>
+        <a href="contact.html">Contactos</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- header fim -->
+
+    <!-- formulário da conta -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">Acceso</span>
+        <span class="btn register-btn">Registrarse</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>Inicia sesión ahora</h3>
+        <input type="email" placeholder="Introduce tu e-mail" class="box" />
+        <input
+          type="password"
+          placeholder="Ingresa tu contraseña"
+          class="box"
+        />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Recuérdame</label>
+          <a href="#">Has olvidado tu contraseña?</a>
+        </div>
+        <input type="submit" value="Inicia sesión ahora" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>Regístrate ahora</h3>
+        <input type="email" placeholder="Introduce tu e-mail" class="box" />
+        <input type="nome" placeholder="Introduce tu Nombre" class="box" />
+        <input
+          type="nome"
+          placeholder="Introduce tu nacionalidad"
+          class="box"
+        />
+        <input
+          type="nome"
+          placeholder="Introduce tu nivel escolar"
+          class="box"
+        />
+        <input type="nome" placeholder="Tiene hijos? cuántos?" class="box" />
+
+        <input
+          type="password"
+          placeholder="Ingresa tu contraseña"
+          class="box"
+        />
+        <input
+          type="password"
+          placeholder="confirmar la contraseña"
+          class="box"
+        />
+        <input type="submit" value="Regístrate ahora" class="btn" />
+      </form>
+    </div>
+
+    <!-- fim do formulário de inscriçao -->
+
+    <!-- fim do header -->
+
+    <!-- inicio do home  -->
+
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(/images/vevenezubra.jpg) no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>Bienvenido a Brasil!</h3>
+              <p>
+                Todo lo que necesita saber sobre su nuevo hogar lo puede encontrar aquí
+              </p>
+              <a href="#" class="btn">vamos a empezar</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/PicsArt_01-05-04.47.09.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Bienvenido a Brasil!</h3>
+              <p>
+                Todo sobre documentación, derechos, ciudades, clima y empleo se puede encontrar aquí
+              </p>
+              <a href="#" class="btn">vamos a empezar</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/PicsArt_01-05-04.47.38.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Bienvenido a Brasil!</h3>
+              <p>
+                información gratuita para los más diversos temas
+              </p>
+              <a href="#" class="btn">vamos a empezar</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- home chegou ao fim -->
+
+    <!-- informaçoes inicia  -->
+
+    <section class="subjects">
+      <h1 class="heading">Descubra más sobre Brasil</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="Curiosidades/derechos.html" target="_blank">            
+          <img src="images/direitos.png" alt=""/>
+          <h3>Derechos</h3>
+          <p>derechos que tienes cuando llegas a Brasil</p>
+        </a>
+
+        </div>
+
+        <div class="box">
+          <a href="#">
+          <img src="images/saude.png" alt="" />
+          <h3>Salud</h3>
+          <p>Todo sobre salud y bien estar.</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="#">
+          <img src="images/educaçao.png" alt="" />
+          <h3>Educación</h3>
+          <p>todo sobre la educación en Brasil</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="Curiosidades/Cultura.html">
+          <img src="images/costumes.png" alt="" />
+          <h3>Cultura y Costumbres</h3>
+          <p>la cultura de brasil y sus costumbres</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <img src="images/cidades.png" alt="" />
+          <h3>Ciudades y Capitales</h3>
+          <p>Ciudades com mejores oportunidades</p>
+        </div>
+
+        <div class="box">
+          <img src="images/culinaria.png" alt="" />
+          <h3>Cocina brasileña</h3>
+          <p>recetas locales deliciosas</p>
+        </div>
+
+        <div class="box">
+          <img src="images/trbalho.png" alt="" />
+          <h3>Trabajos y salarios</h3>
+          <p>Plataformas de búsqueda de empleo</p>
+        </div>
+
+        <div class="box">
+          <img src="images/locomoçao.png" alt="" />
+          <h3>Locomoción</h3>
+          <p>saber cómo llegar a otras ciudades y estados</p>
+        </div>
+
+        <div class="box">
+          <img src="images/telefones.png" alt="" />
+          <h3>Líneas telefónicas</h3>
+          <p>líneas telefónicas para comunicarse en todo el país</p>
+        </div>
+
+        <div class="box">
+          <img src="images/Emergency call-pana.png" alt="" />
+          <h3>Líneas telefónicas de emergencia</h3>
+          <p>líneas telefónicas en caso de emergencia</p>
+        </div>
+
+        <div class="box">
+          <img src="images/House searching-pana.png" alt="" />
+          <h3>Alquiler de casa</h3>
+          <p>sitios para alquiler de casas
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/documentos.png" alt="" />
+          <h3>Documentación</h3>
+          <p>todo lo que necesita saber sobre documentación
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/leis.png" alt="" />
+          <h3>Leyes y reglas</h3>
+          <p>leyes y reglas en todo el país
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/dinheiro.png" alt="" />
+          <h3>Moneda brasileña</h3>
+          <p>los valores y cómo evitar el fraude
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/clima.png" alt="" />
+          <h3>Clima brasileño</h3>
+          <p>todo sobre el clima brasileño
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/biomas.png" alt="" />
+          <h3>biomas y regiones</h3>
+          <p>todo sobre los biomas e regiones 
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/curiosidades.png" alt="" />
+          <h3>trivia sobre Brasil</h3>
+          <p>curiosidades
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/governo.png" alt="" />
+          <h3>gobierno brasileño</h3>
+          <p>las 3 potencias de brasil
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- informaçoes termina -->
+
+    <!-- about app começa-->
+
+    <section class="aboutapp" id="aboutapp">
+      <h1 class="heading">BienVenido APP</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Eche un vistazo a nuestra aplicación</h3>
+          <p>
+            la aplicación aún no está disponible, en un futuro próximo la pondremos a disposición.
+            la aplicación aún no está disponible, en un futuro próximo la pondremos a disposición
+            la aplicación aún no está disponible, en un futuro próximo la pondremos a disposición
+            la aplicación aún no está disponible, en un futuro próximo la pondremos a disposición
+          </p>
+
+          <div class="buttons">
+            <a href="#"><img src="images/google-btn.png" alt="" /></a>
+            <a href="#"><img src="images/app-store-btn.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home utilidades slider inicio -->
+
+    <section class="home-courses">
+      <h1 class="heading">Utilidades</h1>
+
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/Online translator-pana.png" alt="" />
+              <h3>TRADUCTOR</h3>
+            </div>
+            <div class="content">
+              <h3>TRADUCTOR</h3>
+              <p>traductor para entrenar un nuevo idioma</p>
+              <a href="https://translate.google.com.br/?hl=pt-BR&sl=es&tl=pt&op=translate" target="_blank" class="btn">Acceso</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/Paper map-amico.png" alt="" />
+              <h3>GPS/MAPA</h3>
+            </div>
+            <div class="content">
+              <h3>GPS/MAPA</h3>
+              <p>
+                un mapa para obtener más información sobre su ubicación y sus
+                alrededores
+              </p>
+              <a href="https://www.google.com.br/maps" target="_blank" class="btn">Acceso</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/Emergency call-pana.png" alt="" />
+              <h3>EMERGENCIA</h3>
+            </div>
+            <div class="content">
+              <h3>EMERGENCIA</h3>
+              <p>números en caso de que necesite ayuda</p>
+              <a href="https://help.unhcr.org/brazil/onde-encontrar-ajuda/telefones-de-emergencia/" target="_blank" class="btn">Acceso</a>
+            </div>
+          </div>
+
+        
+    </section>
+
+  
+    <!-- footer incio  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3></i> BienVenido</h3>
+          <p>
+            Todo lo que necesita saber sobre su nuevo hogar lo puede encontrar aquí.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+      
+
+        <div class="box">
+          <h3> enlaces útiles </h3>
+          <a href="#" class="link"> centro de ayuda </a>
+          <a href="contact.html" class="link"> hacer preguntas </a>
+          <a href="#" class="link"> enviar comentarios </a>
+          <a href="#" class="link"> política privada </a>
+          <a href="#" class="link"> condiciones de uso </a>
+        </div>
+
+        <div class = "box">
+          <h3> boletín </h3>
+          <p> suscríbete para recibir las últimas actualizaciones </p>
+          <form action="">
+            <input
+              type="E-mail"
+              name=""
+              placeholder="Escriba su e-mail"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="suscribir" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">
+        desarrollado por <span>Squad34</span> |reservados todos los derechos!
+      </div>
+    </section>
+
+    <!-- footer section fim -->
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- customomizaçao js  -->
+    <script src="script.js"></script>
+  </body>
+</html>
