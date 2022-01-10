@@ -1,0 +1,44 @@
+body { background-color: #272d3b;}
+        /* color: #fa3535; laranja;
+        color: #f37070; cor de pele;
+        color: #f3f3f3; branco?;
+        color: #ff8d7c; pele clara;        
+        color:110.50497947596307deg,
+        rgba(255, 77, 77, 1) 5.911420204978038%,
+        rgba(250, 183, 121, 1) 95.95534407027817%;} */
+        main {
+        background-color:#f3f3f3;
+        }
+        html::-webkit-scrollbar {
+        width: 1rem;
+        }
+        html::-webkit-scrollbar-track {
+        background: transparent;
+        }
+        html::-webkit-scrollbar-thumb {
+        background: #fa3535;
+        }
+        .floating-btn{
+            width: 50px;
+            height: 50px;
+            background-color: #fa3535;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            border-radius: 50%;
+            color: #f3f3f3;
+            font-size: 40px;
+            box-shadow: 2px 2px 5px black;
+            position: fixed;
+            left: 20px;
+            bottom: 50%;
+            transition: background 0.25s;
+            
+            outline: blue;
+            border: none;
+            cursor: pointer;            
+        }
+        .botaofluante-btn:active {
+            background: #fa3535d7;
+        }
