@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\BancoDadosMigrations\**" />
+    <Content Remove="Migrations\BancoDadosMigrations\**" />
+    <EmbeddedResource Remove="Migrations\BancoDadosMigrations\**" />
+    <None Remove="Migrations\BancoDadosMigrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220110213118_addAuthDbContext.cs" />
+    <Compile Remove="Migrations\20220110213118_addAuthDbContext.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations\BancoDadosMigrations\20220110220152_Banco de Dados Geral.cs" />
+    <Compile Include="Migrations\BancoDadosMigrations\20220110220152_Banco de Dados Geral.Designer.cs" />
+    <Compile Include="Migrations\BancoDadosMigrations\BancoDadosModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\1.jpg" />
+    <None Include="wwwroot\images\about-img.png" />
+    <None Include="wwwroot\images\app-store-btn.png" />
+    <None Include="wwwroot\images\biomas.png" />
+    <None Include="wwwroot\images\carcar.jpg" />
+    <None Include="wwwroot\images\cidades.png" />
+    <None Include="wwwroot\images\cie.jpg" />
+    <None Include="wwwroot\images\cj.jpg" />
+    <None Include="wwwroot\images\clima.png" />
+    <None Include="wwwroot\images\contact-img.png" />
+    <None Include="wwwroot\images\contatanos %281%29.png" />
+    <None Include="wwwroot\images\costumes.png" />
+    <None Include="wwwroot\images\culinaria.png" />
+    <None Include="wwwroot\images\curiosidades.png" />
+    <None Include="wwwroot\images\dinheiro.png" />
+    <None Include="wwwroot\images\diogo %281%29.jpg" />
+    <None Include="wwwroot\images\direitos.png" />
+    <None Include="wwwroot\images\documentos.png" />
+    <None Include="wwwroot\images\educaçao.png" />
+    <None Include="wwwroot\images\Emergency call-pana.png" />
+    <None Include="wwwroot\images\empregos,com.jpg" />
+    <None Include="wwwroot\images\Fantasminha.jpeg" />
+    <None Include="wwwroot\images\gabriel %281%29.png" />
+    <None Include="wwwroot\images\getnija.jpg" />
+    <None Include="wwwroot\images\google-btn.png" />
+    <None Include="wwwroot\images\governo.png" />
+    <None Include="wwwroot\images\heading-bg.jpg" />
+    <None Include="wwwroot\images\House searching-pana.png" />
+    <None Include="wwwroot\images\indeed.jpg" />
+    <None Include="wwwroot\images\infojoobs.jpg" />
+    <None Include="wwwroot\images\leis.png" />
+    <None Include="wwwroot\images\linkedin.jpg" />
+    <None Include="wwwroot\images\locomoçao.png" />
+    <None Include="wwwroot\images\logotipobien.png" />
+    <None Include="wwwroot\images\Online translator-bro.png" />
+    <None Include="wwwroot\images\Online translator-pana.png" />
+    <None Include="wwwroot\images\Paper map-amico.png" />
+    <None Include="wwwroot\images\pedrosantos.png" />
+    <None Include="wwwroot\images\pedrosouz.png" />
+    <None Include="wwwroot\images\PicsArt_01-05-04.47.09.jpg" />
+    <None Include="wwwroot\images\PicsArt_01-05-04.47.38.jpg" />
+    <None Include="wwwroot\images\saude.png" />
+    <None Include="wwwroot\images\sine.jpg" />
+    <None Include="wwwroot\images\sobre nos.png" />
+    <None Include="wwwroot\images\telefones.png" />
+    <None Include="wwwroot\images\test" />
+    <None Include="wwwroot\images\trbalho.png" />
+    <None Include="wwwroot\images\trovit.jpg" />
+    <None Include="wwwroot\images\vagas.jpg" />
+    <None Include="wwwroot\images\vevenezubra.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>

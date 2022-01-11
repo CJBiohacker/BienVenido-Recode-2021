@@ -1,0 +1,167 @@
+﻿@model IEnumerable<WebApplication2.Models.Curriculo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nacionalidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNasc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empresa1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CargoTrab1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PeriodoTrab1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoTrab1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empresa2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CargoTrab2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PeriodoTrab2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoTrab2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instituicao1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nivel1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Curso1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instituicao2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nivel2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Curso2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Habilidades)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idioma2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idioma3)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nacionalidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNasc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empresa1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CargoTrab1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeriodoTrab1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoTrab1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empresa2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CargoTrab2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeriodoTrab2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoTrab2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instituicao1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nivel1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curso1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instituicao2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nivel2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curso2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Habilidades)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idioma2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idioma3)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idCurriculo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idCurriculo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idCurriculo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
