@@ -8,4 +8,3 @@ Este projeto foi desenvolvido em grupo pelo Squad 34 formado pelos integrante ab
 <p><a href="https://github.com/CJBiohacker" target="_blank">Carlos de Lima Junior --> BackEnd + DataBase</a></p>
 <p><a href="https://github.com/DiogaoRecode" target="_blank">Diogo Reis --> BackEnd + DataBase</a></p>
 <p><a href="https://github.com/Gabriel-Richard" target="_blank">Gabriel Richard --> FullStack Overview</a></p>
-<p>Matheus --> FullStack Overview</p>
