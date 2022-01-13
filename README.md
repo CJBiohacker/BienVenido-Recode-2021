@@ -1,6 +1,7 @@
 # BienVenido-Recode-2021
 
 Projeto Social integrador do Programa de formação profissional em FullStack Dev Recode Pro.
+Consiste em uma aplicação da Web contendo informações gerais do Brasil para refugiados da América Latina (ou de países de língua espanhola).
 Este projeto foi desenvolvido em grupo pelo Squad 34 formado pelos integrante abaixo:
 
 <p><a href="https://github.com/Pedrogsouza" target="_blank">João Pedro de Souza --> FrontEnd</a></p>
@@ -8,3 +9,5 @@ Este projeto foi desenvolvido em grupo pelo Squad 34 formado pelos integrante ab
 <p><a href="https://github.com/CJBiohacker" target="_blank">Carlos de Lima Junior --> BackEnd + DataBase</a></p>
 <p><a href="https://github.com/DiogaoRecode" target="_blank">Diogo Reis --> BackEnd + DataBase</a></p>
 <p><a href="https://github.com/Gabriel-Richard" target="_blank">Gabriel Richard --> FullStack Overview</a></p>
+
+ 
