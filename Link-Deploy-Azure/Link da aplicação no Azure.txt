@@ -1,1 +1,3 @@
-https://bienvenidoappbeta.azurewebsites.net
+https://bienvenidoapp.azurewebsites.net/ --> ONLINE E IMPLEMENTADO
+
+https://bienvenidoappbeta.azurewebsites.net --> OFFLINE DEVIDO AO ENCERRAMENTO NO TRIAL GRATUITO
